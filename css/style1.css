@@ -1,3 +1,8 @@
+* {
+    /* box-sizing: border-box; */
+
+}
+
 html,
 body {
 	margin:0;
@@ -12,15 +17,46 @@ body {
 }
 
 /* Styling for a page layout of header+content+footer */
-#mainwrap {
-	min-height:100%;
-    position:relative;
-    background-color: green;
-} 
+
  .menuPreview {
      background-color: blue;
+     display: flex;
  }
 
  .loadedPreview {
      background-color: yellow;
+     flex: 1;
+     text-decoration: none;
+     
+ }
+
+ .sectionTitle {
+     background-color: red;
+     /* width: 50%; */
+ }
+
+ .sectionInfo {
+     background-color: purple;
+     /* width: 50%; */
+ }
+
+ .demoLinks {
+     background-color: white;
+     max-height: 50px;
+     max-width: 75px;
+ }
+
+ a:hover {
+     background-color: green;
+ }
+
+ ul, li, a {
+     text-decoration: none;
+ }
+
+
+ .techStack {
+    background-color: grey;
+    max-height: 75px;
+    max-width: 100px;
  }
