@@ -34,21 +34,34 @@
 
 <body>
   <!--Main page wrapper - gives you better control of page dimenstions-->
-  <div id="mainwrap">
-    <!--ID's are use for unique elements and should only be used once a page-->
-    <header>
-      <h1>Portfolio Adam Bradbury</h1>
-    </header>
-    <!--Main Content-->
-    <div id="content">
-      <h2>Welcome to my portfolio!!</h2>
-
+  <div id="mainContainer">
+    <ul class="menuPreview">
+      <li class="loadedPreview">
+        <a href="#0">
+          <div class="sectionTitle">
+            <h2>Adam Bradbury</h2>
+            <p>About Me</p>
+          </div>
+        </a>
+      </li>
+      <li class="loadedPreview">
+        <a>
+          <div class="sectionTitle">
+            <h2>Work</h2>
+            <p>Recent Projects</p>
+          </div>
+        </a>
+      </li>
+      <li class="loadedPreview">
+        <a>
+            <div class="sectionTitle">
+              <h2>Contact Me</h2>
+              <p>Email, GitHub, LinkedIn, any how you please</p>
+            </div>
+          </a>
+      </li>
+    </ul>
     
-    <footer>
-      <div>
-        I likely won't have a footer
-      </div>
-    </footer>
   </div>
   <!--end mainwrap-->
   <!--Placing JavaScript at the bottom of the page (right before you close the body tag), or right before you need to use it, makes the page load faster.-->
